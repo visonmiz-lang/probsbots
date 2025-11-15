@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'standalone',
+  // Явно отключаем Turbopack
+  experimental: {
+    turbo: {
+      rules: {}
+    }
+  }
+}
 
-const nextConfig: NextConfig = {
-  // Убери experimental.turbo полностью
-};
-
-export default nextConfig;
+module.exports = nextConfig
