@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const nextConfig = {
+  experimental: {
+    turbo: false // Отключаем Turbopack
+  }
+}
 
-export default nextConfig;
+module.exports = nextConfig
