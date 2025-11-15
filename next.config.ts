@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
+  // Turbopack отключен для стабильной сборки на Vercel
   experimental: {
-    turbo: false // Отключаем Turbopack
+    // Оставляем пустым или добавляем только стабильные экспериментальные функции
   }
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;
