@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-13T18:19:39.888Z",
+  "aiResponse": {
+    "operation": "Sell",
+    "symbol": "BTC",
+    "position": {
+      "pricing": 99371.8,
+      "amount": 14428,
+      "leverage": 2,
+      "stopLoss": 100563.9,
+      "takeProfit": 97583.1
+    },
+    "chat": "BTC showing bearish technical setup with RSI at 49.2 (neutral-bearish), MACD at -158 (bearish momentum), and price below EMA20. Recent successful trades were SELL positions with tight risk management. Using conservative 2x leverage and 1.2% stop loss based on ATR, targeting 1.8% take profit for 1:1.5 risk/reward. Position size uses 8% of available cash for moderate risk approach.",
+    "reasoning": "BTC showing bearish technical setup with RSI at 49.2 (neutral-bearish), MACD at -158 (bearish momentum), and price below EMA20. Recent successful trades were SELL positions with tight risk management. Using conservative 2x leverage and 1.2% stop loss based on ATR, targeting 1.8% take profit for 1:1.5 risk/reward. Position size uses 8% of available cash for moderate risk approach.",
+    "rawObject": {
+      "operation": "Sell",
+      "symbol": "BTC",
+      "position": {
+        "pricing": 99371.8,
+        "amount": 14428,
+        "leverage": 2,
+        "stopLoss": 100563.9,
+        "takeProfit": 97583.1
+      },
+      "chat": "BTC showing bearish technical setup with RSI at 49.2 (neutral-bearish), MACD at -158 (bearish momentum), and price below EMA20. Recent successful trades were SELL positions with tight risk management. Using conservative 2x leverage and 1.2% stop loss based on ATR, targeting 1.8% take profit for 1:1.5 risk/reward. Position size uses 8% of available cash for moderate risk approach."
+    },
+    "tradingHistoryContext": {
+      "isEmpty": false,
+      "totalTrades": "7",
+      "winRate": {
+        "s": 1,
+        "e": 1,
+        "d": [
+          28,
+          6000000
+        ]
+      }
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nTRADING HISTORY ANALYSIS:\n\nOVERALL STATISTICS (Last 30 days):\n- Total Trades: 7\n- Win Rate: 28.6%\n- Avg Profit: +78.446% | Avg Loss: -90.619%\n- Most Effective TP/SL: -0.94% / -1.77%\n\nLEARN FROM MISTAKES - ANTI-PATTERNS:\n❌ Leverage: 2x, SL: -1.8%, TP: 3.9%: 1 trades, avg PnL -236.981% (1 losses)\n❌ Leverage: 3x, SL: -0.8%, TP: 0.9%: 1 trades, avg PnL -154.311% (1 losses)\n❌ Leverage: 2x, SL: -2.4%, TP: 5.4%: 1 trades, avg PnL -28.101% (1 losses)\n\nRECENT ..."
+}

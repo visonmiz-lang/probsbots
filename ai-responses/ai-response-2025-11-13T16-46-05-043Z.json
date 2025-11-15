@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-13T16:46:05.050Z",
+  "aiResponse": {
+    "operation": "Hold",
+    "symbol": "BTC",
+    "chat": "BTC showing neutral RSI at 46.3 with MACD negative, indicating weak momentum. Price trading slightly below EMA20 at $101027.24 suggests minor bearish bias. ATR(14) of 0.90% indicates moderate volatility. No clear short-term directional setup on 1h timeframe - market appears to be consolidating. Waiting for clearer signal with defined risk/reward ratio before entering position.",
+    "reasoning": "BTC showing neutral RSI at 46.3 with MACD negative, indicating weak momentum. Price trading slightly below EMA20 at $101027.24 suggests minor bearish bias. ATR(14) of 0.90% indicates moderate volatility. No clear short-term directional setup on 1h timeframe - market appears to be consolidating. Waiting for clearer signal with defined risk/reward ratio before entering position.",
+    "rawObject": {
+      "operation": "Hold",
+      "symbol": "BTC",
+      "chat": "BTC showing neutral RSI at 46.3 with MACD negative, indicating weak momentum. Price trading slightly below EMA20 at $101027.24 suggests minor bearish bias. ATR(14) of 0.90% indicates moderate volatility. No clear short-term directional setup on 1h timeframe - market appears to be consolidating. Waiting for clearer signal with defined risk/reward ratio before entering position."
+    },
+    "tradingHistoryContext": {
+      "isEmpty": true
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nTRADING HISTORY: No historical trading data available. This is your first session or no completed trades yet.\n\nSession Data:\n- Duration: 0 minutes\n- Current Time: 2025-11-13T16:45:47.294Z\n- Invocation Count: 5\n\nMARKET DATA FOR BTC:\nBTC:\n- Price: $100975.8\n- RSI: 46.3\n- MACD: -37.5236\n- EMA20: $101027.24\n- Status: AVAILABLE\n- Funding Rate: -8.24e-5\n- Open Interest: 51822\n- ATR (3): 1167.16 (1.16%)\n- ATR (14): 909.64 (0.90%)\n\nEXISTING POSITIONS:\nNo open..."
+}

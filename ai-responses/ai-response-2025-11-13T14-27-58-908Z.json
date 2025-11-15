@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-11-13T14:27:58.909Z",
+  "aiResponse": {
+    "operation": "Hold",
+    "symbol": "BTC",
+    "chat": "BTC trading at $102,409 with neutral RSI (52.0) and minimal momentum on 1h timeframe. Price near EMA20 ($102,386) showing lack of clear directional bias. MACD at 12.2993 suggests weak momentum. Current market conditions don't present a clear short-term setup with optimal risk/reward ratio. Preserving capital and waiting for stronger momentum breakout above $103,000 resistance or below $102,000 support for better short-term trading opportunity.",
+    "reasoning": "BTC trading at $102,409 with neutral RSI (52.0) and minimal momentum on 1h timeframe. Price near EMA20 ($102,386) showing lack of clear directional bias. MACD at 12.2993 suggests weak momentum. Current market conditions don't present a clear short-term setup with optimal risk/reward ratio. Preserving capital and waiting for stronger momentum breakout above $103,000 resistance or below $102,000 support for better short-term trading opportunity.",
+    "rawObject": {
+      "operation": "Hold",
+      "symbol": "BTC",
+      "chat": "BTC trading at $102,409 with neutral RSI (52.0) and minimal momentum on 1h timeframe. Price near EMA20 ($102,386) showing lack of clear directional bias. MACD at 12.2993 suggests weak momentum. Current market conditions don't present a clear short-term setup with optimal risk/reward ratio. Preserving capital and waiting for stronger momentum breakout above $103,000 resistance or below $102,000 support for better short-term trading opportunity."
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nSession Data:\n- Duration: 0 minutes\n- Current Time: 2025-11-13T14:27:45.061Z\n- Invocation Count: 2\n\nMARKET DATA FOR BTC:\nBTC:\n- Price: $102409\n- RSI: 52.0\n- MACD: 12.2993\n- EMA20: $102386.01\n- Status: AVAILABLE\n- Funding Rate: 6.68e-5\n- Open Interest: 51783\n- ATR (3): 655.32\n- ATR (14): 752.66\n\nEXISTING POSITIONS:\nNo open positions\n\nACCOUNT INFORMATION:\n## BYBIT DEMO ACCOUNT INFORMATION & PERFORMANCE\nCurrent Total Return: 1694.65%\nAvailable Cash: $179..."
+}

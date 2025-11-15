@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-13T17:42:54.723Z",
+  "aiResponse": {
+    "operation": "Sell",
+    "symbol": "BTC",
+    "position": {
+      "pricing": 100019.5,
+      "amount": 17800,
+      "leverage": 3,
+      "stopLoss": 100519.5,
+      "takeProfit": 99019.5
+    },
+    "chat": "BTC is trading below EMA20 with bearish RSI (39.3) and negative MACD (-137.04), suggesting continued short-term weakness. ATR(14) of 0.93% supports tight stop placement. Based on historical analysis, the only profitable trade used 3x leverage with tight SL/TP (0.57%/-0.93%). Using moderate position sizing with conservative risk management - setting tight 0.5% stop loss and 1.0% take profit for 1:2 risk/reward ratio, avoiding previous anti-patterns of wide stops and aggressive targets.",
+    "reasoning": "BTC is trading below EMA20 with bearish RSI (39.3) and negative MACD (-137.04), suggesting continued short-term weakness. ATR(14) of 0.93% supports tight stop placement. Based on historical analysis, the only profitable trade used 3x leverage with tight SL/TP (0.57%/-0.93%). Using moderate position sizing with conservative risk management - setting tight 0.5% stop loss and 1.0% take profit for 1:2 risk/reward ratio, avoiding previous anti-patterns of wide stops and aggressive targets.",
+    "rawObject": {
+      "operation": "Sell",
+      "symbol": "BTC",
+      "position": {
+        "pricing": 100019.5,
+        "amount": 17800,
+        "leverage": 3,
+        "stopLoss": 100519.5,
+        "takeProfit": 99019.5
+      },
+      "chat": "BTC is trading below EMA20 with bearish RSI (39.3) and negative MACD (-137.04), suggesting continued short-term weakness. ATR(14) of 0.93% supports tight stop placement. Based on historical analysis, the only profitable trade used 3x leverage with tight SL/TP (0.57%/-0.93%). Using moderate position sizing with conservative risk management - setting tight 0.5% stop loss and 1.0% take profit for 1:2 risk/reward ratio, avoiding previous anti-patterns of wide stops and aggressive targets."
+    },
+    "tradingHistoryContext": {
+      "isEmpty": false,
+      "totalTrades": "6",
+      "winRate": {
+        "s": 1,
+        "e": 1,
+        "d": [
+          16,
+          7000000
+        ]
+      }
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nTRADING HISTORY ANALYSIS:\n\nOVERALL STATISTICS (Last 30 days):\n- Total Trades: 6\n- Win Rate: 16.7%\n- Avg Profit: +18.72% | Avg Loss: -90.619%\n- Most Effective TP/SL: -0.93% / -1.77%\n\nLEARN FROM MISTAKES - ANTI-PATTERNS:\n❌ Leverage: 2x, SL: -1.8%, TP: 3.9%: 1 trades, avg PnL -236.981% (1 losses)\n❌ Leverage: 3x, SL: -0.8%, TP: 0.9%: 1 trades, avg PnL -154.311% (1 losses)\n❌ Leverage: 2x, SL: -2.4%, TP: 5.4%: 1 trades, avg PnL -28.101% (1 losses)\n\nRECENT P..."
+}

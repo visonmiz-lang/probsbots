@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-13T17:06:07.491Z",
+  "aiResponse": {
+    "operation": "Buy",
+    "symbol": "BTC",
+    "position": {
+      "pricing": 100490.6,
+      "amount": 17922.4,
+      "leverage": 3,
+      "stopLoss": 99786.8,
+      "takeProfit": 101495.5
+    },
+    "chat": "BTC showing oversold conditions with RSI at 29.8 and price below EMA20. Recent winning trade used tight SL/TP with good results. Using moderate position size (10% of cash) with conservative 0.7% stop loss and 1.0% take profit for 1:1.43 risk/reward. Leverage at 3x allows for reasonable exposure while avoiding past mistakes with overly ambitious targets. ATR supports these tight levels for short-term scalp.",
+    "reasoning": "BTC showing oversold conditions with RSI at 29.8 and price below EMA20. Recent winning trade used tight SL/TP with good results. Using moderate position size (10% of cash) with conservative 0.7% stop loss and 1.0% take profit for 1:1.43 risk/reward. Leverage at 3x allows for reasonable exposure while avoiding past mistakes with overly ambitious targets. ATR supports these tight levels for short-term scalp.",
+    "rawObject": {
+      "operation": "Buy",
+      "symbol": "BTC",
+      "position": {
+        "pricing": 100490.6,
+        "amount": 17922.4,
+        "leverage": 3,
+        "stopLoss": 99786.8,
+        "takeProfit": 101495.5
+      },
+      "chat": "BTC showing oversold conditions with RSI at 29.8 and price below EMA20. Recent winning trade used tight SL/TP with good results. Using moderate position size (10% of cash) with conservative 0.7% stop loss and 1.0% take profit for 1:1.43 risk/reward. Leverage at 3x allows for reasonable exposure while avoiding past mistakes with overly ambitious targets. ATR supports these tight levels for short-term scalp."
+    },
+    "tradingHistoryContext": {
+      "isEmpty": false,
+      "totalTrades": "5",
+      "winRate": {
+        "s": 1,
+        "e": 1,
+        "d": [
+          20
+        ]
+      }
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nTRADING HISTORY ANALYSIS:\n\nOVERALL STATISTICS (Last 30 days):\n- Total Trades: 5\n- Win Rate: 20%\n- Avg Profit: +18.72% | Avg Loss: -74.696%\n- Most Effective TP/SL: -0.93% / -2.02%\n\nLEARN FROM MISTAKES - ANTI-PATTERNS:\n❌ Leverage: 2x, SL: -1.8%, TP: 3.9%: 1 trades, avg PnL -236.981% (1 losses)\n❌ Leverage: 2x, SL: -2.4%, TP: 5.4%: 1 trades, avg PnL -28.101% (1 losses)\n❌ Leverage: 3x, SL: 1.1%, TP: -1.7%: 1 trades, avg PnL -22.362% (1 losses)\n\nRECENT PERF..."
+}

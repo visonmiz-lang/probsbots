@@ -1,0 +1,84 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Metrics {
+  id String @id @default(uuid())
+
+  name  String
+  model ModelType
+
+  metrics Json[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Chat {
+  id String @id @default(uuid())
+
+  model      ModelType @default(Deepseek)
+  chat       String    @default("<no chat>")
+  reasoning  String
+  userPrompt String
+  tradings   Trading[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Trading {
+  id String @id @default(uuid())
+
+  symbol     Symbol
+  opeartion  Opeartion
+  leverage   Int?
+  amount     Float?
+  pricing    Float?
+  stopLoss   Float?
+  takeProfit Float?
+  technicalIndicatorsAtOpen Json?       // RSI, MACD и т.д. на момент открытия
+  marketConditionsAtOpen    Json?       // Условия рынка при открытии
+  aiReasoningAtOpen         String?     // Полный reasoning AI при открытии
+  positionOutcome           String?     // 'win', 'loss', 'open'
+  closedAt                  DateTime?   // Когда закрылась позиция
+  finalPnl                  Float?      // Финальный PnL
+  exitPrice                 Float?      // Цена закрытия
+  exitReasoning             String?     // Почему закрыли (AI или manual)
+  bybitOrderId String?  // 👈 ДОБАВЬ ЭТО ПОЛЕ
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  Chat   Chat?   @relation(fields: [chatId], references: [id], onDelete: Cascade)
+  chatId String?
+}
+
+enum Opeartion {
+  Buy
+  Sell
+  Hold
+}
+
+enum Symbol {
+  BTC
+  ETH
+  BNB
+  SOL
+  DOGE
+}
+
+enum ModelType {
+  Deepseek
+  DeepseekThinking
+  Qwen
+  Doubao
+}

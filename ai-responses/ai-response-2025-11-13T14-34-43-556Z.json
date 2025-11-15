@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-11-13T14:34:43.557Z",
+  "aiResponse": {
+    "operation": "Buy",
+    "symbol": "BTC",
+    "position": {
+      "pricing": 102551.3,
+      "amount": 14357.17,
+      "leverage": 2,
+      "stopLoss": 100603,
+      "takeProfit": 106447
+    },
+    "chat": "BTC showing bullish momentum with price above EMA20 ($102436) and RSI at 63.9 indicating strength but not overbought. MACD positive at 35.48 supports upward momentum. Using moderate 8% position size for short-term trade with 2x leverage. Stop loss set below EMA20 using ATR(14) guidance at 1.9% risk, take profit at 3.8% for 1:2 risk/reward ratio. Funding rate positive at 0.0069% supports long bias.",
+    "reasoning": "BTC showing bullish momentum with price above EMA20 ($102436) and RSI at 63.9 indicating strength but not overbought. MACD positive at 35.48 supports upward momentum. Using moderate 8% position size for short-term trade with 2x leverage. Stop loss set below EMA20 using ATR(14) guidance at 1.9% risk, take profit at 3.8% for 1:2 risk/reward ratio. Funding rate positive at 0.0069% supports long bias.",
+    "rawObject": {
+      "operation": "Buy",
+      "symbol": "BTC",
+      "position": {
+        "pricing": 102551.3,
+        "amount": 14357.17,
+        "leverage": 2,
+        "stopLoss": 100603,
+        "takeProfit": 106447
+      },
+      "chat": "BTC showing bullish momentum with price above EMA20 ($102436) and RSI at 63.9 indicating strength but not overbought. MACD positive at 35.48 supports upward momentum. Using moderate 8% position size for short-term trade with 2x leverage. Stop loss set below EMA20 using ATR(14) guidance at 1.9% risk, take profit at 3.8% for 1:2 risk/reward ratio. Funding rate positive at 0.0069% supports long bias."
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nSession Data:\n- Duration: 0 minutes\n- Current Time: 2025-11-13T14:34:24.945Z\n- Invocation Count: 4\n\nMARKET DATA FOR BTC:\nBTC:\n- Price: $102551.3\n- RSI: 63.9\n- MACD: 35.4834\n- EMA20: $102436.03\n- Status: AVAILABLE\n- Funding Rate: 6.90e-5\n- Open Interest: 51783\n- ATR (3): 681.15\n- ATR (14): 758.20\n\nEXISTING POSITIONS:\nNo open positions\n\nACCOUNT INFORMATION:\n## BYBIT DEMO ACCOUNT INFORMATION & PERFORMANCE\nCurrent Total Return: 1694.65%\nAvailable Cash: $1..."
+}

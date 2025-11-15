@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-11-13T14:31:17.503Z",
+  "aiResponse": {
+    "operation": "Hold",
+    "symbol": "BTC",
+    "chat": "BTC trading near EMA20 with RSI at 44.4 showing neutral momentum. MACD positive but weak, and price action lacks clear short-term direction on 1h timeframe. ATR(14) of 752.66 indicates moderate volatility. No compelling short-term setup with proper risk/reward - preserving capital and waiting for clearer signal with defined support/resistance break.",
+    "reasoning": "BTC trading near EMA20 with RSI at 44.4 showing neutral momentum. MACD positive but weak, and price action lacks clear short-term direction on 1h timeframe. ATR(14) of 752.66 indicates moderate volatility. No compelling short-term setup with proper risk/reward - preserving capital and waiting for clearer signal with defined support/resistance break.",
+    "rawObject": {
+      "operation": "Hold",
+      "symbol": "BTC",
+      "chat": "BTC trading near EMA20 with RSI at 44.4 showing neutral momentum. MACD positive but weak, and price action lacks clear short-term direction on 1h timeframe. ATR(14) of 752.66 indicates moderate volatility. No compelling short-term setup with proper risk/reward - preserving capital and waiting for clearer signal with defined support/resistance break."
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nSession Data:\n- Duration: 0 minutes\n- Current Time: 2025-11-13T14:31:05.662Z\n- Invocation Count: 3\n\nMARKET DATA FOR BTC:\nBTC:\n- Price: $102375.8\n- RSI: 44.4\n- MACD: 10.8172\n- EMA20: $102395.29\n- Status: AVAILABLE\n- Funding Rate: 6.80e-5\n- Open Interest: 51783\n- ATR (3): 655.32\n- ATR (14): 752.66\n\nEXISTING POSITIONS:\nNo open positions\n\nACCOUNT INFORMATION:\n## BYBIT DEMO ACCOUNT INFORMATION & PERFORMANCE\nCurrent Total Return: 1694.65%\nAvailable Cash: $1..."
+}

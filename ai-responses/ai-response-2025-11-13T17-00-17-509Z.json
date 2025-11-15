@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-11-13T17:00:17.510Z",
+  "aiResponse": {
+    "operation": "Hold",
+    "symbol": "BTC",
+    "chat": "BTC showing oversold conditions with RSI at 31.6 and price below EMA20, but MACD remains strongly negative at -114.6. Historical analysis shows poor performance with wide stop losses and aggressive targets. The recent winning trade used tight parameters (0.57% SL, 0.93% TP). Current ATR of 0.82% suggests logical SL would be around 0.8-1.0%, but market lacks clear short-term direction. Waiting for clearer momentum signal with better risk/reward setup. Avoiding repeating anti-patterns of using 2-3x leverage with wide stops that led to significant losses.",
+    "reasoning": "BTC showing oversold conditions with RSI at 31.6 and price below EMA20, but MACD remains strongly negative at -114.6. Historical analysis shows poor performance with wide stop losses and aggressive targets. The recent winning trade used tight parameters (0.57% SL, 0.93% TP). Current ATR of 0.82% suggests logical SL would be around 0.8-1.0%, but market lacks clear short-term direction. Waiting for clearer momentum signal with better risk/reward setup. Avoiding repeating anti-patterns of using 2-3x leverage with wide stops that led to significant losses.",
+    "rawObject": {
+      "operation": "Hold",
+      "symbol": "BTC",
+      "chat": "BTC showing oversold conditions with RSI at 31.6 and price below EMA20, but MACD remains strongly negative at -114.6. Historical analysis shows poor performance with wide stop losses and aggressive targets. The recent winning trade used tight parameters (0.57% SL, 0.93% TP). Current ATR of 0.82% suggests logical SL would be around 0.8-1.0%, but market lacks clear short-term direction. Waiting for clearer momentum signal with better risk/reward setup. Avoiding repeating anti-patterns of using 2-3x leverage with wide stops that led to significant losses."
+    },
+    "tradingHistoryContext": {
+      "isEmpty": false,
+      "totalTrades": "5",
+      "winRate": {
+        "s": 1,
+        "e": 1,
+        "d": [
+          20
+        ]
+      }
+    }
+  },
+  "prompt": "\nBTC TRADING ANALYSIS - SHORT TERM (1 HOUR)\n\nTRADING HISTORY ANALYSIS:\n\nOVERALL STATISTICS (Last 30 days):\n- Total Trades: 5\n- Win Rate: 20%\n- Avg Profit: +18.72% | Avg Loss: -74.696%\n- Most Effective TP/SL: -0.93% / -2.02%\n\nLEARN FROM MISTAKES - ANTI-PATTERNS:\n❌ Leverage: 2x, SL: -1.8%, TP: 3.9%: 1 trades, avg PnL -236.981% (1 losses)\n❌ Leverage: 2x, SL: -2.4%, TP: 5.4%: 1 trades, avg PnL -28.101% (1 losses)\n❌ Leverage: 3x, SL: 1.1%, TP: -1.7%: 1 trades, avg PnL -22.362% (1 losses)\n\nRECENT PERF..."
+}
